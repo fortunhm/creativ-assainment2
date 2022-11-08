@@ -1,0 +1,273 @@
+/* ----Full web margin----- */
+* {
+    margin: 0px;
+}
+
+/* top main style */
+body {
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0; */
+}
+
+/* ----container all style---- */
+.container {
+    margin-top: 5%;
+    margin-left: 80px;
+    margin-right: 80px;
+    /* background-color: red; */
+
+}
+
+/*----------------------
+  navigation-site creat
+-----------------------*/
+.navigation-set {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.site {
+    font-weight: 800;
+}
+
+.site-2 a {
+    text-decoration: none;
+    margin-right: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+/* ------------------------
+      top products
+-------------------------- */
+.top-chart {
+    display: flex;
+    margin-bottom: 45px;
+    padding: 0px 30px;
+}
+
+.top-part {
+    margin-right: 15%;
+    padding-top: 75px;
+}
+
+.top-part h1 {
+    font-size: 3em;
+    font-weight: 800;
+    color: rgb(59, 56, 56);
+}
+.top-part p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(82, 77, 77);
+}
+
+.top-part a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.button-set {
+    background-color: rgb(227, 26, 89);
+    /* height: 45px; */
+    /* width: 75px; */
+    padding: 8px 18px;
+    border-radius: 14px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.fa-arrow-right {
+    margin-left: 9px;
+}
+
+.top-part2 img {
+    height: 380px;
+    width: 380px;
+}
+
+/* --------------------
+      logo part
+----------------------- */
+.brand-img-section {
+    display: flex;
+    justify-content: center;
+}
+
+.brand-img-section .brand-img img {
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+/* hr{
+    padding: 0px 15px;
+    margin: 55px;
+} */
+
+/* ---------------------
+        products site
+----------------------- */
+.container2 {
+    margin: auto 110px;
+    margin-top: 80px;
+    /* margin: 0px 100px; */
+}
+
+.products-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.item-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.product {
+    /* width: 370px; */
+    /* height: 450px; */
+    padding: 8px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    /* border: 1px solid rgb(165, 34, 62); */
+    align-items: center;
+    box-shadow: 0px 0px 30px 15px rgb(231, 223, 216);
+}
+
+.area img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.area {
+    overflow: hidden;
+}
+
+.area:hover>img {
+    transform: scale(1.3);
+    transition: transform 2s;
+}
+
+.product .rating-box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    /* justify-content: space-between; */
+    /* text-overflow: none; */
+}
+
+.product .rating-box p {
+    margin-left: 10px;
+    /* justify-content: space-between; */
+    /* text-overflow: none; */
+}
+
+.product p {
+    color: gray;
+    font-weight: 600;
+    /* margin-left: 10px; */
+}
+
+.product h3,.product p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0;
+}
+
+.area-details h2 {
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.small-site {
+    color: rgb(205, 51, 51);
+    font-weight: 700;
+    margin-top: 40px;
+    display: block;
+}
+.container2 > a{
+    text-align: right;
+}
+
+.filled {
+    color: #ffc014;
+}
+
+/* ---------extra site-------- */
+.collection-area {
+    display: flex;
+    padding: 5% 35px;
+    /* margin-top: 10px; */
+}
+
+.collection img {
+    height: 260px;
+    width: 340px;
+    border-radius: 6px;
+}
+
+.collection-details {
+    margin-left: 9%;
+    /* width: 500px; */
+}
+
+.collection-details p {
+    font-weight: 600;
+    color: gray;
+    font-size: 14px;
+}
+
+.collection-details h1 {
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.collection-details a {
+    /* margin-top: 15px; */
+    text-decoration: none;
+    color: white;
+    /* display: inline-block; */
+    font-weight: 600;
+}
+
+/* --------footer saide--------- */
+.footer-section {
+    background-color: rgb(13, 27, 47);
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+.footer-details, h3, p {
+    margin: 10px;
+}
+.footer-details, p {
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.footer-details, h3 {
+    font-size: 24px;
+}
+
+.footer-icon {
+    font-size: 16px;
+    margin-top: 2%;
+}
+
+.footer-icon i {
+    border-radius: 50%;
+    padding: 9px;
+    margin-right: 10px;
+    background-color: rgb(88, 81, 81);
+    /* box-shadow: 0px 0px 10px 5px rgb(102, 96, 96); */
+}
+/* ------------------media quari site------------- */
+@media only screen and (max-width:668px){
+    
+}
