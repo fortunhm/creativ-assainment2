@@ -53,11 +53,12 @@ body {
 }
 
 .top-part h1 {
-    font-size: 3em;
-    font-weight: 800;
+    font-size: 2.6em;
+    /* font-weight: bold; */
     color: rgb(59, 56, 56);
 }
-.top-part p{
+
+.top-part p {
     font-size: 16px;
     font-weight: 600;
     color: rgb(82, 77, 77);
@@ -173,7 +174,8 @@ body {
     /* margin-left: 10px; */
 }
 
-.product h3,.product p {
+.product h3,
+.product p {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0;
@@ -190,7 +192,8 @@ body {
     margin-top: 40px;
     display: block;
 }
-.container2 > a{
+
+.container2>a {
     text-align: right;
 }
 
@@ -243,15 +246,20 @@ body {
     padding: 3%;
 }
 
-.footer-details, h3, p {
+.footer-details,
+h3,
+p {
     margin: 10px;
 }
-.footer-details, p {
+
+.footer-details,
+p {
     font-size: 13px;
     font-weight: 550;
 }
 
-.footer-details, h3 {
+.footer-details,
+h3 {
     font-size: 24px;
 }
 
@@ -267,7 +275,100 @@ body {
     background-color: rgb(88, 81, 81);
     /* box-shadow: 0px 0px 10px 5px rgb(102, 96, 96); */
 }
+
 /* ------------------media quari site------------- */
-@media only screen and (max-width:668px){
-    
+@media only screen and (max-width:668px) {
+
+    .navigation-set {
+
+        background-color: lightblue;
+
+    }
+
+    .site-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-1 h1 {
+        font-size: 16px;
+
+    }
+
+    .site-2 a {
+        display: none;
+    }
+
+    /* from me */
+    .top-chart {
+        flex-direction: column-reverse;
+    }
+
+    .products-area {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .collection-area {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .top-part2 img {
+        height: 250px;
+        width: 250px;
+
+    }
+
+    .collection img {
+        height: auto;
+        width: 100%;
+
+    }
+
+    .container {
+        margin-top: 1%;
+        margin-left: 8px;
+        margin-right: 8px;
+        /* background-color: red; */
+
+    }
+
+    /* .brand-img-section .brand-img {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 5px;
+    }
+
+    .brand-img-section .brand-img img {
+        height: 40px;
+        width: 40px;
+   
+    } */
+    .d-none{
+        display: none;
+    }
+    /* .brand-img-section {
+        display: grid;
+      
+        grid-template-columns: repeat(4, 1fr);
+
+    } */
+
+    .brand-img-section .brand-img img {
+        height: 40px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .container2 {
+        margin: 10px;
+        margin-top: 8px;
+        /* margin: 0px 100px; */
+    }
+    .area img {
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
 }
